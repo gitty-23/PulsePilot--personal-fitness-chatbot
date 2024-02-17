@@ -83,9 +83,9 @@ iface = gradio.Interface(
     title="PulsePIlot - Your Personal Gym Trainer",
     theme="default",
     examples=[
-        [example_prompt, client_info_example, video_query_example]
-        for example_prompt, client_info_example, video_query_example in zip(
-            example_prompts, client_info_examples, video_query_examples
+        [example_prompt, client_info_example]
+        for example_prompt, client_info_example in zip(
+            example_prompts, client_info_examples
         )
     ]
 )
