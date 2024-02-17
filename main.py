@@ -67,11 +67,6 @@ client_info_examples = [
     "I have a shoulder injury",
     "I am a male and a beginner"
 ]
-video_query_examples = [
-    "Chest exercises video",
-    "Diet plan for bulking",
-    "Phonk x Aggressive Music for Gym Exercises"
-]
 
 # Create the Gradio interface
 iface = gradio.Interface(
