@@ -6,7 +6,7 @@ from youtube_search import YoutubeSearch
 from gradio import components
 
 # Set OpenAI API key
-api_key = "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"
+api_key = "insert API key here"
 client = OpenAI(api_key=api_key)
 
 # Define start and restart sequences for conversation history
